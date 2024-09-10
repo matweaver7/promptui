@@ -124,13 +124,13 @@ type Key struct {
 //
 // This displays the value given to the template as pure, unstylized text. Structs are transformed to string
 // with this notation.
-// '{{ . }}'
+// 	'{{ . }}'
 //
 // This displays the name property of the value colored in cyan
-// '{{ .Name | cyan }}'
+// 	'{{ .Name | cyan }}'
 //
 // This displays the label property of value colored in red with a cyan background-color
-// '{{ .Label | red | cyan }}'
+// 	'{{ .Label | red | cyan }}'
 //
 // See the doc of text/template for more info: https://golang.org/pkg/text/template/
 //
